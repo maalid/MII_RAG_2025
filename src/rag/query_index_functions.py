@@ -137,7 +137,6 @@ def query_persisted_index(index_dir: str,
         print(f"Nodo {i}: score = {node.score:.4f}")
     
     # 6. Crear sintetizador según el modo
-    # llm = None if response_mode == "no_text" else get_answer_question_llm(model_name = config_llm["rag"]["response_llm"]["model_name"])
     llm = None if response_mode == "no_text" else get_rag_answer_question_model(model_name            = llm_model_config["rag"]["answer_question_llm"]["model_name"],
                                                                                 azure_api_version     = llm_model_config["rag"]["answer_question_llm"]["azure_api_version"],
                                                                                 azure_deployment_name = llm_model_config["rag"]["answer_question_llm"]["azure_deployment_name"],
