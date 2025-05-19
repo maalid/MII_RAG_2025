@@ -2,5 +2,11 @@
 rag:
   answer_question_llm:
     model_name: 'gpt-4o'
+    azure_api_version: '...'
+    azure_deployment_name: '...'
+    azure_endpoint: '...'
   embedding_llm:
     model_name: 'text-embedding-3-large'
+    azure_api_version: '...'
+    azure_deployment_name: '...'
+    azure_endpoint: '...'
