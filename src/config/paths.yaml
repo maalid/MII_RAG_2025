@@ -1,0 +1,5 @@
+# Documents to index path
+docs_to_index_path: 'C:\mii\MII_RAG_2025\docs'
+
+# Persisted Index path
+persisted_index_path: '../persisted_index'

@@ -1,0 +1,12 @@
+# RAG response LLM and embedding LLM
+rag:
+  answer_question_llm:
+    model_name: 'gpt-4o'
+    azure_api_version: '2025-01-01-preview'
+    azure_deployment_name: 'ACR-gpt-4o'
+    azure_endpoint: 'https://aoaiaraucoeastus2poc01.openai.azure.com/'
+  embedding_llm:
+    model_name: 'text-embedding-3-large'
+    azure_api_version: '2023-05-15'
+    azure_deployment_name: 'ACR-text-embedding-3-large'
+    azure_endpoint: 'https://aoaiaraucoeastus2poc01.openai.azure.com/'
