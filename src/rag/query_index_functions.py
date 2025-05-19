@@ -179,10 +179,10 @@ def query_persisted_index(index_dir: str,
         end       = node.node.end_char_idx
 
         print(f"Fragmento {i}")
-        print(f"Archivo                    : {file_name}")
-        print(f"Ruta                       : {file_path}")
-        print(f"Score                      : {score:.4f}")
-        print(f"Rango                      : caracteres {start} a {end}")
+        print(f"Archivo: {file_name}")
+        print(f"Ruta   : {file_path}")
+        print(f"Score  : {score:.4f}")
+        print(f"Rango  : caracteres {start} a {end}")
         print()
 
     # 12. Preparar salida como diccionario
